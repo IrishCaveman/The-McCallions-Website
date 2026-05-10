@@ -23,7 +23,7 @@ export default function Accommodation() {
             <h2 className="font-serif text-3xl text-forest-900">Hotel Block Info</h2>
           </div>
           <div className="bg-cream-dark p-8 rounded-2xl shadow-sm border border-sand">
-            <h3 className="font-serif text-2xl text-maroon-800 mb-2">Kilkenny Ormonde Hotel</h3>
+            <h3 className="font-serif text-2xl text-maroon-800 mb-2">Langtons Hotel</h3>
             <p className="text-sm font-medium uppercase tracking-widest text-forest-800 mb-6">Primary Wedding Hotel</p>
             <p className="text-forest-900 font-light leading-relaxed mb-6">
               We have reserved a block of rooms for out-of-town guests at a discounted rate. 
@@ -48,18 +48,18 @@ export default function Accommodation() {
           </div>
           <div className="grid md:grid-cols-2 gap-8">
             <div>
-              <h3 className="font-serif text-xl text-forest-900 mb-2">Lyrath Estate</h3>
+              <h3 className="font-serif text-xl text-forest-900 mb-2">Kilford Arms Hotel</h3>
               <p className="text-forest-800 font-light text-sm mb-4">
-                A beautiful luxury hotel slightly outside the city center. Offers a lovely spa and grounds.
+                A comfortable and welcoming hotel just a 3-minute walk from Langtons. Features a traditional Irish bar and excellent hospitality in the city center.
               </p>
-              <a href="#" className="text-maroon-800 hover:text-maroon-700 text-sm underline underline-offset-4">Visit Website</a>
+              <a href="https://www.kilfordarms.ie/" target="_blank" rel="noopener noreferrer" className="text-maroon-800 hover:text-maroon-700 text-sm underline underline-offset-4">Visit Website</a>
             </div>
             <div>
-              <h3 className="font-serif text-xl text-forest-900 mb-2">Pembroke Hotel</h3>
+              <h3 className="font-serif text-xl text-forest-900 mb-2">Kilkenny River Court Hotel</h3>
               <p className="text-forest-800 font-light text-sm mb-4">
-                Located right in the heart of Kilkenny, steps away from the Castle and local pubs.
+                Situated right beside the river and directly opposite the castle. A picturesque stay just a short 5-minute walk from Langtons.
               </p>
-              <a href="#" className="text-maroon-800 hover:text-maroon-700 text-sm underline underline-offset-4">Visit Website</a>
+              <a href="https://www.rivercourthotel.com/" target="_blank" rel="noopener noreferrer" className="text-maroon-800 hover:text-maroon-700 text-sm underline underline-offset-4">Visit Website</a>
             </div>
           </div>
         </section>

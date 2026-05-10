@@ -18,12 +18,11 @@ export default function Where() {
       <div className="grid md:grid-cols-2 gap-12 items-start">
         {/* Venue Image */}
         <div className="aspect-square bg-cream-dark overflow-hidden relative group rounded-2xl shadow-sm border border-sand">
-          {/* Note: I couldn't automatically save your uploaded photo into the code. 
-              Please upload your photo to the file explorer on the left, name it 'venue.jpg', and place it in the public folder. 
-              Then, change the 'src' below to '/venue.jpg' */}
+          {/* Note: I couldn't automatically save your attached chat photo into the code. 
+              Please upload your photo to the file explorer on the left, name it 'venue.jpg', and place it in the public folder. */}
           <img 
-            src="https://images.unsplash.com/photo-1507676184212-d0330a15233c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" 
-            alt="Langtons Hotel Set Theatre" 
+            src="/Venue.png" 
+            alt="Vanessa and Matthew at Langtons Hotel Set Theatre" 
             className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
           />
         </div>
@@ -56,8 +55,7 @@ export default function Where() {
                 <div>
                   <h4 className="font-medium text-lg text-forest-900 mb-2">By Car</h4>
                   <p className="text-forest-800 font-light text-sm leading-relaxed">
-                    Parking is available at the castle and nearby city parking lots. Please let the attendant know you are 
-                    with the Vanessa & Matthew wedding.
+                    Parking is available at the hotel, including two electric vehicle chargers. The drive time from Dublin city centre to the venue is approximately 90 minutes.
                   </p>
                 </div>
               </div>
@@ -69,8 +67,7 @@ export default function Where() {
                 <div>
                   <h4 className="font-medium text-lg text-forest-900 mb-2">By Train</h4>
                   <p className="text-forest-800 font-light text-sm leading-relaxed">
-                    For those arriving via Irish Rail to Kilkenny MacDonagh Station, the venue is a short 10-minute 
-                    taxi ride or 15-minute walk through the beautiful town center.
+                    For those arriving via Irish Rail from Dublin Connolly to Kilkenny MacDonagh Station, we advise booking in advance to secure a significantly cheaper ticket. The venue is a short 5-minute taxi ride or 10-minute walk through the beautiful town center.
                   </p>
                 </div>
               </div>
