@@ -22,11 +22,11 @@ const FAQS = [
   },
   {
     question: "Will the ceremony and reception be indoors or outdoors?",
-    answer: "The ceremony will be held outdoors in the garden, weather permitting. The reception will follow indoors."
+    answer: "The event will take place indoors. On day two in Bridies Bar there will be a garden where you can spend time outside in the sun."
   },
   {
     question: "What should I do if I have dietary restrictions?",
-    answer: "Please note your dietary restrictions when you RSVP so we can accommodate your needs."
+    answer: "Please note your dietary restrictions when you RSVP so we can accommodate your needs. The hotel will be providing other meal options such as vegetarian and gluten-free options on the day based on the food that is in season and of the highest quality."
   }
 ];
 
