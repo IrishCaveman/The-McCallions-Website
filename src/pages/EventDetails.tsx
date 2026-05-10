@@ -1,7 +1,15 @@
-import { motion } from "motion/react";
+import { motion, useScroll, useTransform } from "motion/react";
 import { Clock, Shirt, Gift, Beer, MapPin } from "lucide-react";
+import { useRef } from "react";
 
 export default function EventDetails() {
+  const timelineRef = useRef<HTMLDivElement>(null);
+  const { scrollYProgress } = useScroll({
+    target: timelineRef,
+    offset: ["start center", "end center"],
+  });
+
+  const pathHeight = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
   const timeline = [
     { time: "TBD", event: "Guest Arrival" },
     { time: "TBD", event: "Ceremony Begins" },
@@ -63,20 +71,36 @@ export default function EventDetails() {
           </div>
 
           {/* Right Column: Timeline */}
-          <section>
+          <section ref={timelineRef}>
             <div className="flex items-center gap-3 mb-8">
               <Clock className="text-maroon-800" size={28} />
               <h3 className="font-serif text-3xl text-forest-900">Timeline of the Day</h3>
             </div>
             
-            <div className="relative border-l border-forest-900/20 ml-4 space-y-8 pb-4">
+            <div className="relative ml-4 space-y-8 pb-4">
+              {/* Background Line */}
+              <div className="absolute top-0 bottom-0 left-0 w-[1px] bg-forest-900/20" />
+              
+              {/* Animated Progress Line */}
+              <motion.div 
+                className="absolute top-0 left-0 w-[2px] bg-maroon-800 origin-top" 
+                style={{ height: pathHeight }}
+              />
+
               {timeline.map((item, index) => (
-                <div key={index} className="relative pl-8">
+                <motion.div 
+                  key={index} 
+                  className="relative pl-8"
+                  initial={{ opacity: 0, x: 20 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  viewport={{ once: true, margin: "-10%" }}
+                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                >
                   {/* Dot */}
-                  <div className="absolute -left-[5px] top-1.5 w-[9px] h-[9px] rounded-full bg-maroon-800" />
+                  <div className="absolute -left-[4px] top-1.5 w-[9px] h-[9px] rounded-full bg-cream border-2 border-maroon-800 z-10" />
                   <h4 className="font-serif text-xl text-forest-900">{item.event}</h4>
                   <p className="text-sm font-medium uppercase tracking-widest text-forest-800 mt-1">{item.time}</p>
-                </div>
+                </motion.div>
               ))}
             </div>
           </section>
