@@ -134,7 +134,7 @@ export default function Layout() {
           <h2 className="font-serif text-3xl mb-4 text-white">Vanessa & Matthew</h2>
           <p className="text-sm tracking-widest uppercase mb-8 opacity-80">July 19th, 2027 • Kilkenny, Ireland</p>
             <p className="text-xs opacity-60 font-light">
-              Created with love. We can't wait to celebrate with you.
+              Live Today, Love Tomorrow, Unite Forever
             </p>
         </div>
       </footer>
