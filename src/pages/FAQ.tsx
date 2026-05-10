@@ -18,7 +18,7 @@ const FAQS = [
   },
   {
     question: "Is there parking at the venue?",
-    answer: "Yes, complimentary valet parking is provided at the main entrance of the venue."
+    answer: "Yes, complimentary parking is provided at the main entrance of the venue."
   },
   {
     question: "Will the ceremony and reception be indoors or outdoors?",

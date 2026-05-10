@@ -3,12 +3,12 @@ import { Heart, Camera, Users } from "lucide-react";
 
 export default function AboutUs() {
   const party = [
-    { role: "Maid of Honor", name: "Jessica Smith" },
-    { role: "Best Man", name: "David Johnson" },
-    { role: "Bridesmaid", name: "Emily Davis" },
-    { role: "Groomsman", name: "Michael Brown" },
-    { role: "Bridesmaid", name: "Sarah Wilson" },
-    { role: "Groomsman", name: "Christopher Lee" },
+    { role: "Maid of Honor", name: "Alyssa Lynch" },
+    { role: "Best Man", name: "Patrick Duffy" },
+    { role: "Bridesmaid", name: "Marissa Gamberutti" },
+    { role: "Groomsman", name: "Jamie McCord" },
+    { role: "Bridesmaid", name: "Katie Smith" },
+    { role: "Groomsman", name: "Donal O Donovan" },
   ];
 
   return (
@@ -33,15 +33,22 @@ export default function AboutUs() {
               <h2 className="font-serif text-3xl text-forest-900">Our Story</h2>
             </div>
             <p className="text-forest-800 font-light leading-relaxed">
-              We met like many modern couples doâon an app! But our first date was anything but ordinary. 
-              We spent five hours talking over coffee, which turned into a walk through the park, which turned into dinner. 
-              By the end of the night, we both knew this was something special.
+              Our story began in the summer of 2017, serendipitously unfolding on the way to the legendary Tomorrowland festival in Belgium.
             </p>
             <p className="text-forest-800 font-light leading-relaxed">
-              Five years, two apartments, and one golden retriever later, Matthew proposed during a weekend trip 
-              to the Poconos in the middle of a beautiful snowfall. It was perfect. We have spent our relationship 
-              traveling, trying new restaurants, and building a life we love. We are so excited to officially 
-              start this next chapter as husband and wife!
+              Vanessa, a California native, was in the midst of an epic European backpacking adventure. Matthew was only supposed to attend the second weekend of the festival, but as fate would have it, he won tickets to the first weekend too! With a few days to spare between festivals, he headed to Amsterdam with his cousin—and future best man—Patrick. It was there, amidst the vibrant streets of Amsterdam, that he met Vanessa and her friend Marissa.
+            </p>
+            <p className="text-forest-800 font-light leading-relaxed">
+              The connection was instant. They spent unforgettable days exploring Amsterdam together before journeying on to Tomorrowland. Entranced by the music and each other, the rest was truly history!
+            </p>
+            <p className="text-forest-800 font-light leading-relaxed">
+              After six months of transatlantic long-distance, Vanessa took a daring leap of faith and moved to Ireland to be with Matthew. Soon after, their sweeping romance reached new heights when Matthew proposed in a magical treehouse nestled in the wild beauty of Cork! They spent an amazing year in Ireland, saving up for their next grand adventure together: moving to Vancouver, Canada.
+            </p>
+            <p className="text-forest-800 font-light leading-relaxed">
+              Since settling on the West Coast, they’ve been unstoppable—traveling the globe, dancing at music festivals, making incredible friends, and sharing four different apartments. Whether chasing fresh powder on snowboards in the winter or camping out under the stars in the summer, life is always an adventure.
+            </p>
+            <p className="text-forest-800 font-light leading-relaxed">
+              Madly in love and more excited than ever for the future, they can't wait to celebrate their journey with all of you as they tie the knot in Kilkenny!
             </p>
           </div>
           <div className="order-1 md:order-2 aspect-[4/5] rounded-2xl overflow-hidden shadow-sm border border-sand">
@@ -80,9 +87,9 @@ export default function AboutUs() {
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            <div className="aspect-square rounded-2xl overflow-hidden shadow-sm border border-sand"><img src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" className="w-full h-full object-cover" alt="Memory" /></div>
+            <div className="aspect-square rounded-2xl overflow-hidden shadow-sm border border-sand"><iframe src="https://www.youtube.com/embed/Uf-BxHojinc?si=KB90kWaIQOFEh3eZ" className="w-full h-full object-cover border-0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen title="YouTube video player"></iframe></div>
             <div className="aspect-square rounded-2xl overflow-hidden shadow-sm border border-sand"><img src="https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" className="w-full h-full object-cover" alt="Memory" /></div>
-            <div className="aspect-square rounded-2xl overflow-hidden shadow-sm border border-sand"><img src="https://images.unsplash.com/photo-1520854221256-17451cc331bf?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" className="w-full h-full object-cover" alt="Memory" /></div>
+            <div className="aspect-square rounded-2xl overflow-hidden shadow-sm border border-sand"><iframe src="https://www.youtube.com/embed/cQv-pavYk1c?si=WHymfYSjwfVqky-3" className="w-full h-full object-cover border-0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen title="YouTube video player"></iframe></div>
             <div className="aspect-square rounded-2xl overflow-hidden shadow-sm border border-sand"><img src="https://images.unsplash.com/photo-1518063183569-b5a935be292a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" className="w-full h-full object-cover" alt="Memory" /></div>
           </div>
         </section>

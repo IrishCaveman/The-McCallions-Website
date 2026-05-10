@@ -13,7 +13,7 @@ export default function Welcome() {
       {/* Hero Section */}
       <section className="relative h-[80vh] min-h-[600px] flex items-center justify-center overflow-hidden">
         {/* Background Video/Image Overlay */}
-        <div className="absolute inset-0 bg-forest-900/40 z-10" />
+        <div className="absolute inset-0 bg-white/60 z-10" />
         
         {/* Background Image Placeholder (use a video or high res image) */}
         <div 
@@ -22,7 +22,7 @@ export default function Welcome() {
         />
 
         {/* Hero Content */}
-        <div className="relative z-20 text-center text-cream px-4 max-w-4xl mx-auto">
+        <div className="relative z-20 text-center text-maroon-800 px-4 max-w-4xl mx-auto">
           <motion.div
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
@@ -30,13 +30,13 @@ export default function Welcome() {
           >
             <h2 className="text-sm md:text-base uppercase tracking-[0.3em] mb-4">We are getting married</h2>
             <h1 className="font-serif text-6xl md:text-8xl mb-6 tracking-tight">Vanessa & Matthew</h1>
-            <p className="text-xl md:text-2xl font-light tracking-wide mb-10">
+            <p className="text-xl md:text-2xl font-light tracking-wide mb-10 text-maroon-900">
               July 19th, 2027<br />Kilkenny, Ireland
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
                 href="#rsvp"
-                className="inline-block bg-maroon-800 text-cream px-10 py-4 rounded-full uppercase tracking-widest text-sm hover:scale-105 transition-transform"
+                className="inline-block bg-maroon-800 text-white px-10 py-4 rounded-full uppercase tracking-widest text-sm hover:scale-105 transition-transform shadow-md"
                 onClick={(e) => {
                   e.preventDefault();
                   alert("RSVP functionality coming soon!");
@@ -46,7 +46,7 @@ export default function Welcome() {
               </a>
               <Link
                 to="/event-details"
-                className="inline-block bg-transparent border-2 border-cream rounded-full text-cream px-10 py-4 uppercase tracking-widest text-sm hover:bg-cream/10 hover:scale-105 transition-all"
+                className="inline-block bg-white/50 border-2 border-maroon-800 rounded-full text-maroon-800 px-10 py-4 uppercase tracking-widest text-sm hover:bg-white/80 hover:scale-105 transition-all shadow-sm"
               >
                 Event Details
               </Link>

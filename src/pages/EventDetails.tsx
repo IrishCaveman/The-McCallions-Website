@@ -56,17 +56,8 @@ export default function EventDetails() {
                 <Gift className="text-forest-800" size={32} />
                 <h3 className="font-serif text-2xl text-forest-900">Registry</h3>
                 <p className="text-forest-800 font-light text-sm leading-relaxed mt-4">
-                  Your presence at our wedding is the greatest gift of all! 
-                  However, if you would like to honor us with a gift, we are registered at the following places:
+                  Your presence at our wedding is the greatest gift of all! However, if you would like to honor us with a gift, please give us cash on the day in a card, as we won't have enough suitcase space to bring gifts back to Canada. We will be using this to fund our honeymoon.
                 </p>
-                <div className="flex gap-4 mt-6">
-                  <a href="#" className="border border-maroon-800 rounded-full text-maroon-800 px-6 py-2 text-sm uppercase tracking-wider hover:bg-maroon-800 hover:text-cream transition-colors">
-                    Crate & Barrel
-                  </a>
-                  <a href="#" className="border border-forest-800 rounded-full text-forest-800 px-6 py-2 text-sm uppercase tracking-wider hover:bg-forest-800 hover:text-cream transition-colors">
-                    Zola
-                  </a>
-                </div>
               </div>
             </section>
           </div>
