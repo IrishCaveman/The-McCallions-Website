@@ -53,7 +53,7 @@ export default function AboutUs() {
           </div>
           <div className="order-1 md:order-2 aspect-[4/5] rounded-2xl overflow-hidden shadow-sm border border-sand">
             <img 
-              src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+              src="/Nessmatt3.png" 
               alt="Vanessa and Matthew" 
               className="w-full h-full object-cover"
             />
@@ -88,9 +88,9 @@ export default function AboutUs() {
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div className="aspect-square rounded-2xl overflow-hidden shadow-sm border border-sand"><iframe src="https://www.youtube.com/embed/Uf-BxHojinc?si=KB90kWaIQOFEh3eZ" className="w-full h-full object-cover border-0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen title="YouTube video player"></iframe></div>
-            <div className="aspect-square rounded-2xl overflow-hidden shadow-sm border border-sand"><img src="https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" className="w-full h-full object-cover" alt="Memory" /></div>
+            <div className="aspect-square rounded-2xl overflow-hidden shadow-sm border border-sand"><img src="/Nessmatt.png" className="w-full h-full object-cover" alt="Memory" /></div>
             <div className="aspect-square rounded-2xl overflow-hidden shadow-sm border border-sand"><iframe src="https://www.youtube.com/embed/cQv-pavYk1c?si=WHymfYSjwfVqky-3" className="w-full h-full object-cover border-0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen title="YouTube video player"></iframe></div>
-            <div className="aspect-square rounded-2xl overflow-hidden shadow-sm border border-sand"><img src="https://images.unsplash.com/photo-1518063183569-b5a935be292a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" className="w-full h-full object-cover" alt="Memory" /></div>
+            <div className="aspect-square rounded-2xl overflow-hidden shadow-sm border border-sand"><img src="/Nessmatt2.png" className="w-full h-full object-cover" alt="Memory" /></div>
           </div>
         </section>
       </div>

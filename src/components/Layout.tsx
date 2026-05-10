@@ -131,7 +131,7 @@ export default function Layout() {
       {/* Footer */}
       <footer className="bg-forest-900 text-cream py-12 text-center">
         <div className="max-w-4xl mx-auto px-4">
-          <h2 className="font-serif text-3xl mb-4 text-cream">Vanessa & Matthew</h2>
+          <h2 className="font-serif text-3xl mb-4 text-white">Vanessa & Matthew</h2>
           <p className="text-sm tracking-widest uppercase mb-8 opacity-80">July 19th, 2027 • Kilkenny, Ireland</p>
             <p className="text-xs opacity-60 font-light">
               Created with love. We can't wait to celebrate with you.

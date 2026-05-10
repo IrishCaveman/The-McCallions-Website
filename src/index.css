@@ -20,16 +20,18 @@
   --color-text-main: #2D2D2D;
 }
 
-body {
-  background-color: var(--color-cream);
-  color: var(--color-text-main);
-  font-family: var(--font-sans);
-  -webkit-font-smoothing: antialiased;
-}
+@layer base {
+  body {
+    background-color: var(--color-cream);
+    color: var(--color-text-main);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-serif);
-  color: var(--color-maroon-800);
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+    color: var(--color-maroon-800);
+  }
 }
 
 .music-toggle {
