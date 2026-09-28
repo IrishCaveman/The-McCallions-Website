@@ -10,7 +10,7 @@ const FAQS = [
   },
   {
     question: "Can I bring a date?",
-    answer: "Our wedding is strictly RSVP only. We will only be able to accommodate those listed on your invitation."
+    answer: "Our wedding has limited capacity, all invites by default do not include a +1 unless explicitly stated in your invite"
   },
   {
     question: "Are kids welcome?",

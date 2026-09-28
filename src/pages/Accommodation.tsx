@@ -25,17 +25,19 @@ export default function Accommodation() {
           <div className="bg-cream-dark p-8 rounded-2xl shadow-sm border border-sand">
             <h3 className="font-serif text-2xl text-maroon-800 mb-2">Langtons Hotel</h3>
             <p className="text-sm font-medium uppercase tracking-widest text-forest-800 mb-6">Primary Wedding Hotel</p>
+            <p className="text-forest-900 font-light leading-relaxed mb-4">
+              We have reserved a block of rooms at a discounted rate, to reserve a room, book a room through the Langtons Hotel website using the code 'W1907VM' or by calling them an mentioning Vanessa &amp; Matthew's Wedding. The cutoff date to book a room at the discounted rate is June 1st, 2027.
+            </p>
             <p className="text-forest-900 font-light leading-relaxed mb-6">
-              We have reserved a block of rooms for out-of-town guests at a discounted rate. 
-              Please use the link below or mention the "Vanessa & Matthew Wedding" when calling 
-              to book. The cutoff date to book with our rate is June 1st, 2027.
+              Once the rooms are fully booked there will be no other rooms available and you will need to book a room in a nearby hotel. There are plenty of options to choose from. We encourage booking as soon as you can as the hotels can get quite busy during wedding season.
             </p>
             <a 
-              href="#" 
-              onClick={(e) => e.preventDefault()}
+              href="https://www.langtons.ie/" 
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block border border-maroon-800 rounded-full text-maroon-800 px-6 py-3 text-sm uppercase tracking-widest hover:bg-maroon-800 hover:text-cream transition-colors"
             >
-              Book with our rate
+              Book via the Langtons Hotel Website
             </a>
           </div>
         </section>
